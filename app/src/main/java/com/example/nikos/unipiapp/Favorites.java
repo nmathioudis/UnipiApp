@@ -51,10 +51,8 @@ public class Favorites  extends DropDownMenu  {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     Log.d(TAG, "onAuthStateChanged:signed_in " + user.getUid());
-                    toastMessage("Successfully signed in with. " + user.getEmail());
                 } else {
                     Log.d(TAG, "onAuthStateChanged:signed_out");
-                    toastMessage("Successfully signed out.");
                 }
             }
         };
