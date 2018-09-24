@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkbluegradient"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/eTAddPassword"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_pasword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/eTAddPasswordVerification"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_pasword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Verify Password"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eTAddEmail"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="214dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/mybutton"
+        android:text="Sign Up" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/booklogo" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1060628592381",
+    "firebase_url": "https://unipiapp-e39e8.firebaseio.com",
+    "project_id": "unipiapp-e39e8",
+    "storage_bucket": "unipiapp-e39e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060628592381:android:a6fd5f427a01c8c6",
+        "android_client_info": {
+          "package_name": "com.example.nikos.unipiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060628592381-u8aqmhb04j1cqclt3kvbo32o9smi7rlk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikos.unipiapp",
+            "certificate_hash": "66773783c0e3ebd5fa053c9ef5236ab5bb118a51"
+          }
+        },
+        {
+          "client_id": "1060628592381-aoqb588ap8n50e6f9nkkaufhmk3sdo7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdAuU8MTrHOg0Wo0GmlVfz_-0onYjIrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060628592381-aoqb588ap8n50e6f9nkkaufhmk3sdo7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

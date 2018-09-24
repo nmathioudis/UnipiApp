@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkbluegradient"
+    tools:context=".LoginActivity">
+
+
+
+    <EditText
+        android:id="@+id/eTusername"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="239dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_username"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Username-Email"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eTpasswordLogin"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_pasword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="214dp"
+        android:layout_height="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="@drawable/mybutton"
+        android:text="Sign in" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="214dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/mybutton"
+        android:text="Create a new account" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnLogin"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/newslogo" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+
+
+</RelativeLayout>
